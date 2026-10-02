@@ -429,11 +429,11 @@ def main() -> None:
     prediction_order: np.ndarray = np.argsort(x_test_values)
 
     prediction_ax.plot(
-    x_test_values[prediction_order],
-    model_predictions[prediction_order],
-    label="Predicted",
-    color="purple",
-)
+        x_test_values[prediction_order],
+        model_predictions[prediction_order],
+        label="Predicted",
+        color="purple",
+    )
 
     # CUSTOM: The analyst can customize
     # the returned Matplotlib Axes object.
