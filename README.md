@@ -23,8 +23,7 @@ Think about two variables that might be related:
 - Does temperature predict energy usage?
 - Does advertising spend predict revenue?
 
-Your goal: run the example, read the code,
-and apply the same approach to a dataset and question of your own choosing.
+File has been adjusted to print the trendline as purple to increase readability from having blue dots and a blue line. 
 
 For data suggestions, please see [data/raw/README.md](data/raw/README.md).
 
